@@ -16,7 +16,9 @@ header{
 a{
   text-decoration: none;
 }
-
+li{
+  list-style: none;
+}
 .logo {
   position: absolute;
   top: 32px;
@@ -53,7 +55,6 @@ a{
 }
 
 .main-nav ul {
-  list-style: none;
   display: flex;
   gap: 62px;
   /* margin: 0;
@@ -139,6 +140,53 @@ a{
 ------------------------Popular Merch--------------------------------
 */
 
+.merch-list{
+  font-family: 'Rubik', sans-serif;
+  background-color: #e1c6fd;
+  width: 784;
+  height: 1096;
+  top: 1371px;
+  left: 32px;
+  margin-left: 32px;
+  margin-right: 384px;
+}
+.merch-list h1{
+  color: #612999;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.cards{
+  width: 376;
+  height: 496;
+  top: 1443px;
+  left: 332px;
+  
+}
+.cards ul{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: left;
+}
+
+.cards ul li{
+  width: 376px;
+  height: 496px;
+  background-color: #EFECFF;
+  border-radius: 38px;
+  box-shadow: 0px 6px 40px 0px #3984BB0D;
+  margin-left: -40px;
+}
+.cards ul li img{
+  width: 376px;
+  height: 276px;
+  left: 32px;
+  margin-bottom: 220px;
+  border-radius: 38px;
+}
 
 /*
 ------------------------FOOTER--------------------------------
@@ -165,7 +213,6 @@ footer{
 }
 
 .footer-nav ul li{
-  list-style: none;
   margin-bottom: 8px;
 }
 
