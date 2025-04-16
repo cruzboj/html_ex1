@@ -4,7 +4,7 @@ body{
 }
 
 header{
-  /* background-color: rgba(255, 123, 0, 0.219); */
+  /* background-color: rgba(187, 255, 0, 0.219); */
   display: flex;
   flex-direction: row;
   width: 1046px;
@@ -28,7 +28,7 @@ a{
   background-image: url(../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-color: #d16eff; */
+  /* background-color: #ff4747; */
   font-family: 'Nunito', sans-serif;
 }
 
@@ -73,7 +73,7 @@ a{
 }
 
 /*
-----------------------------------------------------------------
+------------------------WELCOME----------------------------------
 */
 
 .front-img{
@@ -109,13 +109,39 @@ a{
 }
 
 /*
-----------------------------------------------------------------
+------------------------ABOUT---------------------------------
+*/
+
+.about{
+  font-family: 'Rubik', sans-serif;
+  /* background-color: rgb(255, 238, 0); */
+  width: 1136;
+  height: 382;
+  top: 957px;
+  left: 32px;
+  margin: 32px;
+}
+
+.about h1{
+  color: rgb(102, 38, 145);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0px;
+}
+
+.about p{
+  color : black;
+  font-size: 20px;
+}
+
+/*
+------------------------Popular Merch--------------------------------
 */
 
 
-
 /*
-----------------------------------------------------------------
+------------------------FOOTER--------------------------------
 */
 footer{
   font-family: 'Rubik', sans-serif;
