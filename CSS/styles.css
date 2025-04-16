@@ -4,7 +4,7 @@ body{
 }
 
 header{
-  background-color: rgba(187, 255, 0, 0.219);
+  /* background-color: rgba(255, 123, 0, 0.219); */
   display: flex;
   flex-direction: row;
   width: 1046px;
@@ -28,7 +28,7 @@ a{
   background-image: url(../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #ff4747;
+  /* background-color: #d16eff; */
   font-family: 'Nunito', sans-serif;
 }
 
