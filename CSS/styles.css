@@ -139,8 +139,112 @@ li{
 /*
 ------------------------Popular Merch--------------------------------
 */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(376px, 276px));
+  gap: 32px;
+  /* background-color: dodgerblue; */
 
-.merch-list{
+  width: 784;
+  height: 1096;
+  top: 1371px;
+  margin-left: 32px;
+  margin-right: 384px;
+
+  font-family: 'Rubik', sans-serif;
+  color: #612999;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.container > section img{ 
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  
+  border-radius: 38px;
+  width: 376px;
+  height: 276px;
+  margin-bottom: 220px;
+  box-shadow: 0px 6px 40px 0px #3984BB0D;
+}
+/* .container > section h2{
+  color: #612999;
+  font-family: 'Abel', sans-serif;
+} */
+
+.container > .card{
+  background-color: #EFECFF;
+  text-align: left;
+  width: 376px;
+  height: 496px;
+  flex-direction: column;
+  border-radius: 38px;
+}
+
+.container > .card h2{
+  font-family: 'Abel', sans-serif;
+  color: black;
+  /* background-color: blueviolet; */
+
+  width: 221px;
+  height: 38px;
+  margin-top: -161px;
+  margin-left: 32px;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+.container > .card h3{
+  font-family: 'Abel', sans-serif;
+  color: #612999;
+  /* background-color: blueviolet; */
+
+  width: 221px;
+  height: 38px;
+  margin-top: -32px;
+  margin-left: 32px;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+.container > .card p{
+  font-family: 'Abel', sans-serif;
+  color: #333333;
+  /* background-color: blueviolet; */
+  margin-top: -58px;
+  margin-left: 32px;
+
+  max-width: 315px;
+  max-height: 96px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.container > .card span .heart{
+  width: 47px;
+  height: 47px;
+  margin-top: -414px;
+  margin-left: 287px;
+
+}
+.container > .card span .cart{
+  width: 67px;
+  height: 67px;
+  margin-top: -27px;
+  margin-left: 262px;
+
+}
+.container > .card span{
+  position: absolute;
+  margin-top: -50px;
+}
+/* .cards-grid{
   font-family: 'Rubik', sans-serif;
   background-color: #e1c6fd;
   width: 784;
@@ -149,23 +253,46 @@ li{
   left: 32px;
   margin-left: 32px;
   margin-right: 384px;
-}
-.merch-list h1{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  
+} */
+/* .merch-list h1{
   color: #612999;
   font-weight: 500;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 0%;
-}
+} */
 
-.cards{
+/* .cards{
   width: 376;
   height: 496;
   top: 1443px;
   left: 332px;
+
   
 }
-.cards ul{
+
+.card-img{
+  background-color: #EFECFF;
+  width: 376px;
+  height: 496px;
+  border-radius: 38px;
+  
+}
+.card-img img{
+  width: 376px;
+  height: 276px;
+  margin-bottom: 220px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 38px;
+} */
+/* .cards ul{
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -178,15 +305,13 @@ li{
   background-color: #EFECFF;
   border-radius: 38px;
   box-shadow: 0px 6px 40px 0px #3984BB0D;
-  margin-left: -40px;
 }
 .cards ul li img{
   width: 376px;
   height: 276px;
-  left: 32px;
   margin-bottom: 220px;
   border-radius: 38px;
-}
+} */
 
 /*
 ------------------------FOOTER--------------------------------
@@ -207,8 +332,8 @@ footer{
   font-family: 'Varela Round', sans-serif;
   width: 107;
   height: 126;
-  top: 2745px;
-  left: 308px;
+  /* top: 2745px;
+  left: 308px; */
   
 }
 
@@ -232,3 +357,25 @@ footer p{
   margin-left: 32px;
 }
 
+/* 
+-------------------------------------------------------------------
+*/
+
+.container3{
+  width: 1052px;
+  height: 300px;
+  top: 128px;
+  left: 32px;
+  border-width: 4px;
+
+  display: grid;
+  grid-template-columns: 300px 388.29px 300px;
+  margin: 32px;
+  gap: 32px;
+}
+
+.container3 img{
+  width: 300px;
+  height: 300px;
+  border: 4px solid #E6DBFE
+}
