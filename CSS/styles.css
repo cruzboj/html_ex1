@@ -19,6 +19,7 @@ a{
 li{
   list-style: none;
 }
+
 .logo {
   position: absolute;
   top: 32px;
@@ -160,6 +161,7 @@ li{
 }
 
 .container > section img{ 
+  
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -170,51 +172,53 @@ li{
   margin-bottom: 220px;
   box-shadow: 0px 6px 40px 0px #3984BB0D;
 }
-/* .container > section h2{
-  color: #612999;
-  font-family: 'Abel', sans-serif;
-} */
 
 .container > .card{
+  display: flex;
+  position: relative;
   background-color: #EFECFF;
   text-align: left;
   width: 376px;
   height: 496px;
-  flex-direction: column;
   border-radius: 38px;
 }
 
 .container > .card h2{
+  position: absolute;
   font-family: 'Abel', sans-serif;
   color: black;
   /* background-color: blueviolet; */
 
   width: 221px;
   height: 38px;
-  margin-top: -161px;
+  margin-top: 297px;
   margin-left: 32px;
   font-size: 30px;
   font-weight: 400;
 
 }
+
 .container > .card h3{
+  position: absolute;
   font-family: 'Abel', sans-serif;
   color: #612999;
   /* background-color: blueviolet; */
 
   width: 221px;
   height: 38px;
-  margin-top: -32px;
+  margin-top: 415px;
   margin-left: 32px;
   font-size: 30px;
   font-weight: 400;
 
 }
+
 .container > .card p{
+  position: absolute;
   font-family: 'Abel', sans-serif;
   color: #333333;
   /* background-color: blueviolet; */
-  margin-top: -58px;
+  margin-top: 342px;
   margin-left: 32px;
 
   max-width: 315px;
@@ -226,103 +230,72 @@ li{
   letter-spacing: 0%;
 }
 
-.container > .card span .heart{
+.container > .card .heart{
+  position: absolute;
   width: 47px;
   height: 47px;
-  margin-top: -414px;
+  margin-top: 35px;
   margin-left: 287px;
 
 }
-.container > .card span .cart{
+.container > .card .cart{
+  position: absolute;
   width: 67px;
   height: 67px;
-  margin-top: -27px;
+  margin-top: 406px;
   margin-left: 262px;
 
 }
-.container > .card span{
-  position: absolute;
-  margin-top: -50px;
-}
-/* .cards-grid{
-  font-family: 'Rubik', sans-serif;
-  background-color: #e1c6fd;
-  width: 784;
-  height: 1096;
-  top: 1371px;
-  left: 32px;
-  margin-left: 32px;
-  margin-right: 384px;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  
-} */
-/* .merch-list h1{
-  color: #612999;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 0%;
-} */
-
-/* .cards{
-  width: 376;
-  height: 496;
-  top: 1443px;
-  left: 332px;
-
-  
-}
-
-.card-img{
-  background-color: #EFECFF;
-  width: 376px;
-  height: 496px;
-  border-radius: 38px;
-  
-}
-.card-img img{
-  width: 376px;
-  height: 276px;
-  margin-bottom: 220px;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 38px;
-} */
-/* .cards ul{
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-  justify-content: left;
-}
-
-.cards ul li{
-  width: 376px;
-  height: 496px;
-  background-color: #EFECFF;
-  border-radius: 38px;
-  box-shadow: 0px 6px 40px 0px #3984BB0D;
-}
-.cards ul li img{
-  width: 376px;
-  height: 276px;
-  margin-bottom: 220px;
-  border-radius: 38px;
-} */
-
 /*
 ------------------------FOOTER--------------------------------
 */
 footer{
+  display: grid;
   font-family: 'Rubik', sans-serif;
+  gap: 150px;
   background-color:#EFECFF;
   height: 287px;
+  margin-top: 278px;
+
 }
 
-.footer-list{
+.footer-grid{
+  display: flex;
+  position: relative;
+  /* background-color: #beff68; */
+
+  grid-template-columns: 126px 107px;
+  height: 126px;
+  gap: 150px;
+  margin: 32px;
+  
+}
+
+.footer-grid > .footer-card{
+  display: flex;
+  position: relative;
+  background-color: #ff0000;
+}
+
+.footer-grid > .footer-card h1{
+  position: absolute;
+  font-size: 18px;
+  
+}
+
+.footer-grid > .footer-card ul{
+  background-color: rgb(0, 255, 34);
+  margin-top: 40px;
+
+}
+
+.footer-grid > .footer-card ul li a{
+  background-color: rgb(0, 255, 34);
+  color: #333333;
+}
+
+
+/* .footer-list{
   display: flex;
   margin: 32px;
   gap: 126px;
@@ -332,8 +305,6 @@ footer{
   font-family: 'Varela Round', sans-serif;
   width: 107;
   height: 126;
-  /* top: 2745px;
-  left: 308px; */
   
 }
 
@@ -355,7 +326,7 @@ footer img{
 
 footer p{
   margin-left: 32px;
-}
+} */
 
 /* 
 -------------------------------------------------------------------
